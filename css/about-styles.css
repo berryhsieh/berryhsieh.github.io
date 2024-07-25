@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.9); /* 更深的半透明背景 */
+    padding: 20px 0;
+    position: fixed; /* 固定在頁面頂部 */
+    width: 100%;
+    z-index: 1000; /* 確保導航欄在最上層 */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .background {
+    background-image: url('https://images.unsplash.com/photo-1671171180712-7614b58e8b26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3'); /* 替換為其他圖片 URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* 防止背景圖片重複 */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    background: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+    color: black;
+    padding: 30px 60px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加陰影效果 */
+  }
+  
+  h1 {
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none; /* 去除下劃線 */
+    transition: color 0.3s ease; /* 平滑過渡效果 */
+  }
+  
+  a:hover {
+    color: #ff6600; /* 滑鼠懸停時的顏色 */
+  }
+  
+  p {
+    margin: 0;
+  }
+  
